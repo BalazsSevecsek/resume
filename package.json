@@ -1,0 +1,22 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "Hey here is the more or less complete set of my resume.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-elegant": "resumed --theme jsonresume-theme-elegant",
+    "start-kendall": "resumed --theme jsonresume-theme-kendall",
+    "start-machiatto": "resumed --theme jsonresume-theme-machiatto",
+    "start-even": "resumed --theme jsonresume-theme-even"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jsonresume-theme-elegant": "^1.16.1",
+    "jsonresume-theme-even": "^0.23.0",
+    "jsonresume-theme-kendall": "^0.2.0",
+    "jsonresume-theme-macchiato": "^1.1.0",
+    "resumed": "^4.0.0"
+  }
+}

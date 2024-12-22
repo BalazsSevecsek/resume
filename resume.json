@@ -1,0 +1,325 @@
+{
+  "basics": {
+    "name": "Balázs Sevecsek",
+    "label": "Senior Software Engineer",
+    "email": "balazs.sevecsek@gmail.com",
+    "image": "./balazs_sevecsek.jpg",
+    "location": {
+      "address": "Tata Hamari Dániel street 8/D",
+      "city": "Tata",
+      "country": "Hungary"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "BalazsSevecsek",
+        "url": "https://github.com/BalazsSevecsek"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "balazs-sevecsek",
+        "url": "https://www.linkedin.com/in/balazs-sevecsek/"
+      }
+    ],
+    "summary": "Senior software engineer and a polyglot with more than 8 years of experience in the industry who has also led engineering teams and participated in projects serving from 40,000 to 500,000 users."
+  },
+  "work": [
+    {
+      "name": "Yat Labs",
+      "position": "Senior Software Engineer",
+      "url": "https://tari.com/",
+      "startDate": "2023",
+      "summary": "Help launching the Tari chain and furthering Yat as a platform",
+      "highlights": [
+        "Boosted Tari's follower base 100x by creating a complex Airdrop game incentivizing user engagement and participation",
+        "Helped creating Tari's desktop miner app: Tari Universe supporting Macos, Windows and Linux",
+        "Integrated Tari Universe and the airdrop game, giving testnet rewards for users",
+        "Redesigned the company's paper trading game, eliminating 70% of their bugs and improving the game's reliability by 60%",
+        "Added 2 new payment options to the Yat website.",
+        "Automated marketing email campaigns with Customer.io, boosting retention rate by 30%.",
+        "Implemented referral system, increasing new player count by 50%."
+      ],
+      "technologies": [
+        "Rust",
+        "Tauri",
+        "Tokio",
+        "Actix-web",
+        "tokio-postgres",
+        "Elasticsearch",
+        "Node",
+        "TypeORM"
+      ]
+    },
+    {
+      "name": "Myrmidon Technology",
+      "position": "Lead Software Engineer",
+      "startDate": "2023",
+      "endDate": "2023",
+      "summary": "Prototyping of a new graph-based methodology for AI classification.",
+      "technologies": ["Rust", "Tokio", "Memgraph", "Cypher", "Neo4rs"]
+    },
+    {
+      "name": "Glassnode-Accointing",
+      "position": "Senior Software Engineer (Contractor)",
+      "startDate": "2022",
+      "endDate": "2023",
+      "summary": "Pioneered crypto accounting at Accointing, interfacing with crypto exchanges and wallets.",
+      "url": "https://glassnode.com/",
+      "highlights": [
+        "Supervised and consulted architecture and infrastructure decisions for multiple teams.",
+        "Guided and mentored developers.",
+        "Optimized database operations, doubling query execution speed.",
+        "Reduced domain model complexity, cutting database size by 40%.",
+        "Interviewed and hired multiple engineers across teams.",
+        "Supplied system level utilization information, boosting revenue by 10%."
+      ],
+      "technologies": [
+        "TypeScript",
+        "Node.js",
+        "Postgres",
+        "GCP",
+        "Kubernetes",
+        "Rust",
+        "Golang"
+      ]
+    },
+    {
+      "name": "Raiffeisen Bank",
+      "position": "Senior Software Engineer (Contractor)",
+      "startDate": "2022",
+      "endDate": "2022",
+      "url": "https://raiffeisen.ua/en",
+      "summary": "Supported development of a multi-language AI chatbot for 6 countries.",
+      "highlights": [
+        "Constructed a conversation designer, reducing editing time of conversation engineering by 50%.",
+        "Secured service-to-service communication using OAuth client credentials flow.",
+        "Automated 3rd-party data ingestion for model training, increasing dataset size by 100%.",
+        "Incorporated strict typing and linting, improving code quality and reducing bugs by 60%."
+      ],
+      "technologies": [
+        "TypeScript",
+        "Node.js",
+        "AWS",
+        "GraphQL",
+        "Redis",
+        "Python",
+        "Rasa",
+        "Docker"
+      ]
+    },
+    {
+      "name": "Myenergi",
+      "position": "Lead Software Engineer (Contractor)",
+      "startDate": "2020",
+      "endDate": "2022",
+      "url": "https://www.myenergi.com/",
+      "summary": "Led the implementation of cloud-based data pipelines for smart-home IoT devices.",
+      "highlights": [
+        "Migrated 40,000 customer devices to the developed solution without major downtime in 3 weeks.",
+        "Served over 10,000 mobile clients through GraphQL and REST API.",
+        "Created UI for company support and remote management of devices.",
+        "Mentored engineers and refined development practices, reducing bugs in releases by 3x.",
+        "Reworked and augmented local tooling, improving developer experience.",
+        "Designed architecture for 4 new services and optimized system performance by 2 orders of magnitude.",
+        "Introduced observability with Grafana and Prometheus."
+      ],
+      "technologies": [
+        "TypeScript",
+        "Node.js",
+        "React.js",
+        "GraphQL",
+        "Foal.ts",
+        "Redis",
+        "Prometheus",
+        "Grafana",
+        "Nx",
+        "Docker"
+      ]
+    },
+    {
+      "name": "Topdesk Magyarország Kft.",
+      "position": "Full-stack Software Engineer",
+      "startDate": "2018",
+      "endDate": "2020",
+      "url": "https://www.topdesk.com/en/",
+      "summary": "Developed a cloud-based ticketing and facility management system.",
+      "highlights": [
+        "Established secure data encryption for sensitive information storage.",
+        "Developed an embedded chat solution, reducing ticket resolution time by 7x.",
+        "Built an OData service, enabling business intelligence tool integration.",
+        "Held presentations for AI and security guilds."
+      ],
+      "technologies": ["JavaScript", "Python", "Java"]
+    },
+    {
+      "name": "KUKA Hungária Kft.",
+      "position": "System and Back-end Developer",
+      "startDate": "2016",
+      "endDate": "2018",
+      "url": "https://www.kuka.com/en-us/",
+      "summary": "Engineered robotic arm systems and developed UI solutions.",
+      "highlights": [
+        "Co-engineered a new tablet-controlled web UI for the next-generation robotic arm, LBR IISY, showcased at the Hannover World Trade Fair.",
+        "Implemented a robot scene modeling tool helping robot engineers organize their work.",
+        "Developed a graphical programming interface for robot integration engineers, used by 4 industry partners."
+      ],
+      "technologies": ["Java", "JavaScript"]
+    },
+    {
+      "name": "Robert Bosch Kft.",
+      "position": "Functional Software Engineer",
+      "startDate": "2015",
+      "endDate": "2016",
+      "url": "https://www.bosch-mobility.com/en/",
+      "summary": "Developed Adaptive Cruise Control (ACC) systems for the automotive industry.",
+      "highlights": [
+        "Prototyped new adaptive cruise control product using camera input, creating new revenue streams for Bosch from existing hardware",
+        "Enhanced radar-based adaptive cruise control functionalities for various manufacturers.",
+        "Managed customer requirements for major car brands such as Volkswagen and Fiat."
+      ],
+      "technologies": ["C", "ANSI C++"]
+    },
+    {
+      "name": "Knorr-Bremse Brake Systems",
+      "position": "Embedded Software Engineer Trainee",
+      "startDate": "2013",
+      "endDate": "2014",
+      "url": "https://truck.knorr-bremse.com/en",
+      "summary": "CAN communication working group",
+      "highlights": [
+        "Working on the brake systems and CAN communication layer of trucks"
+      ],
+      "technologies": ["C"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Budapest University of Technology and Economics",
+      "area": "Electrical Engineering",
+      "studyType": "MSc",
+      "startDate": "2014",
+      "endDate": "2016",
+      "thesis": "Development of video-based Driver Assistance System"
+    },
+    {
+      "institution": "Budapest University of Technology and Economics",
+      "area": "Electrical Engineering",
+      "studyType": "BSc",
+      "startDate": "2010",
+      "endDate": "2014",
+      "thesis": "Interfacing a CAN module to AUTOSAR compatible drivers"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "keywords": ["Rust", "TypeScript", "JavaScript", "Python", "Java", "Go"]
+    },
+    {
+      "name": "Frontend",
+      "keywords": ["React", "Vue", "CSS/SCSS", "HTML", "i18n"]
+    },
+    {
+      "name": "Backend",
+      "keywords": [
+        "Tokio",
+        "Actix-web",
+        "Axum",
+        "Node.js",
+        "Express.js",
+        "FoalTs",
+        "Nest.js"
+      ]
+    },
+    {
+      "name": "Cloud",
+      "keywords": [
+        "AWS products",
+        "GCP products",
+        "Kubernetes",
+        "Docker",
+        "Docker compose"
+      ]
+    },
+    {
+      "name": "Telemetry",
+      "keywords": [
+        "Prometheus/Grafana",
+        "Open Telemetry Protocol",
+        "Sentry",
+        "Elasticsearch/Kibana"
+      ]
+    },
+    {
+      "name": "Storage",
+      "keywords": ["Postgres", "Redis", "Memgraph", "MongoDB"]
+    },
+    {
+      "name": "ORM",
+      "keywords": ["Typeorm", "Sequelize", "Sqlx"]
+    },
+    {
+      "name": "Message passing",
+      "keywords": ["Kafka", "Redis pubsub"]
+    },
+    {
+      "name": "Testing",
+      "keywords": ["Jest", "Cypress", "Pytest", "testcointainers"]
+    },
+    {
+      "name": "Version control",
+      "keywords": ["Git", "Tfs", "MKS"]
+    },
+    {
+      "name": "Data science",
+      "keywords": ["Rasa", "Numpy", "Pandas", "Pyplot", "LLMs"]
+    },
+    {
+      "name": "Toolchain",
+      "keywords": [
+        "Github CI/CD",
+        "Gitlab CI/CD",
+        "Nx",
+        "Lerna",
+        "SWC",
+        "Webpack"
+      ]
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Kubernetes",
+      "date": "2023-12-17",
+      "issuer": "educative.io",
+      "url": "https://www.educative.io/verify-certificate/Bg5WvwFAW1YoN7krpFrYmkVBZ4r5hy"
+    },
+    {
+      "name": "Machine Learning",
+      "date": "2018-12-31",
+      "issuer": "Coursera",
+      "url": "https://www.coursera.org/account/accomplishments/verify/9YRY4CE557WV"
+    }
+  ],
+  "references": [
+    {
+      "name": "David Garcia (Glassnode)",
+      "reference": [
+        "I would like to thank him for his excellent contribution. We wish him every success and all the best for his future professional and private life. I would highly recommend Balázs for any position that requires a seasoned engineer with problem-solving skills. He is a dedicated and talented employee who would be a valuable asset to any organisation."
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Hungarian",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Proficient"
+    },
+    {
+      "language": "German",
+      "fluency": "Basic/Independent"
+    }
+  ]
+}
