@@ -1,5 +1,5 @@
 import { promises as fs } from "fs";
-import * as theme from "jsonresume-theme-kendall";
+import * as theme from "jsonresume-theme-even";
 import puppeteer from "puppeteer";
 import { render } from "resumed";
 import express from "express";
