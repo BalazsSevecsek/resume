@@ -2,8 +2,12 @@
   "name": "resume",
   "version": "1.0.0",
   "description": "Hey here is the more or less complete set of my resume.",
+  "type": "module",
   "main": "index.js",
   "scripts": {
+    "gen-pdf2": "node index.js",
+    "gen-pdf": "resume export  --format pdf resume.pdf ",
+    "gen-image-url": "node imageToBase64.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start-elegant": "resumed --theme jsonresume-theme-elegant",
     "start-kendall": "resumed --theme jsonresume-theme-kendall",
@@ -13,10 +17,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.21.2",
     "jsonresume-theme-elegant": "^1.16.1",
     "jsonresume-theme-even": "^0.23.0",
     "jsonresume-theme-kendall": "^0.2.0",
     "jsonresume-theme-macchiato": "^1.1.0",
+    "puppeteer": "^23.11.1",
+    "resume-cli": "^3.1.2",
     "resumed": "^4.0.0"
   }
 }
