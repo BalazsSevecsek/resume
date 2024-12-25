@@ -9,6 +9,41 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
+      # Set up Node.js environment
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: "18"
+
+      # Install dependencies
+      - name: Install dependencies
+        run: npm install
+
+      # Generate HTML files
+      - name: Generate HTML files
+        run: npm run gen-html
+
+      # Generate PDF file
+      - name: Generate PDF
+        run: npm run gen-pdf
+
+      # Upload HTML files as artifacts
+      - name: Upload HTML files as artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: resume-html
+          path: |
+            balazs_sevecsek_resume_theme_even.html
+            balazs_sevecsek_resume_theme_elegant.html
+            balazs_sevecsek_resume_theme_kendall.html
+
+      # Upload PDF file as artifact
+      - name: Upload PDF file as artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: resume-pdf
+          path: balazs_sevecsek_resume.pdf
+
       - name: Update Resume Gist
         uses: exuanbo/actions-deploy-gist@v1
         with:
