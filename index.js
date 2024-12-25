@@ -5,14 +5,15 @@ import { render } from "resumed";
 import express from "express";
 
 const PORT = 4000;
+
 function sleep(ms) {
   return new Promise((resolve, reject) => {
     setTimeout(() => resolve(), ms);
   });
 }
 
-const fileName = "balazs_sevecsek.jpg";
 //serve static files
+const fileName = "balazs_sevecsek.jpg";
 const app = express();
 app.use(express.static("public"));
 const server = app.listen(PORT, () => {
@@ -35,9 +36,9 @@ const updatedHtml = html
       `http://localhost:${PORT}/${fileName}`.replace(/\\/g, "/")
     );
   });
+
 const browser = await puppeteer.launch({
   // headless: false,
-  // args: ["--allow-file-access-from-files"],
 });
 const page = await browser.newPage();
 
@@ -51,7 +52,8 @@ await page.evaluate(() => {
   });
 });
 
-// await sleep(550000);
-await page.pdf({ path: "resume.pdf", format: "letter", printBackground: true });
+//for debugging
+// await sleep(1);
+await page.pdf({ path: "resume.pdf", format: "a4", printBackground: true });
 server.close();
 await browser.close();
