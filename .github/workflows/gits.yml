@@ -46,6 +46,7 @@ jobs:
         run: |
           mkdir -p target-repo/resume 
           cp -R resume/* target-repo/resume
+          cp -R balazs_sevecsek.jpg target-repo/resume
 
       - name: Commit files
         run: |
