@@ -54,6 +54,11 @@ await page.evaluate(() => {
 
 //for debugging
 // await sleep(1);
-await page.pdf({ path: "resume.pdf", format: "a4", printBackground: true });
+await fs.mkdir("./resume", { recursive: true });
+await page.pdf({
+  path: "./resume/balazs_sevecsek.pdf",
+  format: "a4",
+  printBackground: true,
+});
 server.close();
 await browser.close();

@@ -19,13 +19,13 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      # Generate HTML files
-      - name: Generate HTML files
-        run: npm run gen-html
-
       # Generate PDF file
       - name: Generate PDF
         run: npm run gen-pdf
+
+      # Generate HTML files
+      - name: Generate HTML files
+        run: npm run gen-html
 
       # Upload HTML files as artifacts
       - name: Upload HTML files as artifacts
@@ -33,16 +33,13 @@ jobs:
         with:
           name: resume-html
           path: |
-            balazs_sevecsek_resume_theme_even.html
-            balazs_sevecsek_resume_theme_elegant.html
-            balazs_sevecsek_resume_theme_kendall.html
+            resume/*
 
-      # Upload PDF file as artifact
-      - name: Upload PDF file as artifact
-        uses: actions/upload-artifact@v3
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          name: resume-pdf
-          path: balazs_sevecsek_resume.pdf
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./resume
 
       - name: Update Resume Gist
         uses: exuanbo/actions-deploy-gist@v1
