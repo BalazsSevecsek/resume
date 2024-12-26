@@ -42,7 +42,7 @@ jobs:
           publish_dir: ./resume
 
       - name: Update Resume Gist
-        uses: exuanbo/actions-deploy-gist@v3
+        uses: exuanbo/actions-deploy-gist@v1
         with:
           token: ${{ secrets.TOKEN }}
           gist_id: dbf716e7a1aac924f69e2b3eaf42d7a2
