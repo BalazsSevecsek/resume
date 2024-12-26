@@ -3,7 +3,7 @@
     "name": "Balázs Sevecsek",
     "label": "Senior Software Engineer (Contractor)",
     "email": "balazs.sevecsek@gmail.com",
-    "image": "balazs_sevecsek.jpg",
+    "image": "https://cdn.jsdelivr.net/gh/BalazsSevecsek/resume/balazs_sevecsek.jpg",
     "location": {
       "country": "Hungary",
       "city": "Tata"
