@@ -7,7 +7,7 @@
   "scripts": {
     "gen-image-url": "node imageToBase64.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "gen-html": "resumed --theme jsonresume-theme-even --output ./resume/balazs_sevecsek_resume_theme_even.html && resumed --theme jsonresume-theme-elegant --output ./resume/balazs_sevecsek_resume_theme_elegant.html && resumed --theme jsonresume-theme-kendall --output ./resume/balazs_sevecsek_resume_theme_kendall.html",
+    "gen-html": "resumed --theme jsonresume-theme-even --output ./resume/index.html",
     "gen-pdf": "node index.js"
   },
   "author": "",
