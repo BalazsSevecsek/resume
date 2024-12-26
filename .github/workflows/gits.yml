@@ -55,7 +55,7 @@ jobs:
       - name: Commit files
         run: |
           cd target-repo
-          git add .
+          git add .g
           git config --local user.email "github@action.com"
           git config --local user.name "github-action"
           git commit -a -m "Add changes"
@@ -67,7 +67,7 @@ jobs:
           repository: BalazsSevecsek/BalazsSevecsek
           branch: main
           directory: target-repo
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.PAT }}
           # github_token: ${{ secrets.PAT }}
 
       # - name: Deploy to GitHub Pages
