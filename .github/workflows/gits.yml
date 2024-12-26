@@ -54,6 +54,7 @@ jobs:
 
       - name: Commit files
         run: |
+          cd target-repo
           git config --local user.email "github@action.com"
           git config --local user.name "github-action"
           git commit -a -m "Add changes"
