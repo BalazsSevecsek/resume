@@ -5,6 +5,9 @@ on: push
 jobs:
   update-resume:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
@@ -49,6 +52,12 @@ jobs:
         run: |
           cp -R resume/* target-repo/
 
+      - name: Commit files
+        run: |
+          git config --local user.email "github@action.com"
+          git config --local user.name "github-action"
+          git commit -a -m "Add changes"
+
       # Commit and push changes to the target repository
       - name: Push Changes
         uses: ad-m/github-push-action@v0.6.0
@@ -57,6 +66,7 @@ jobs:
           branch: main
           directory: target-repo
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          # github_token: ${{ secrets.PAT }}
 
       # - name: Deploy to GitHub Pages
       #   uses: peaceiris/actions-gh-pages@v4
