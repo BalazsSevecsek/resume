@@ -24,7 +24,7 @@
   },
   "work": [
     {
-      "name": "Yat Labs",
+      "name": "Tari Labs",
       "position": "Senior Software Engineer",
       "url": "https://tari.com/",
       "startDate": "2023",
@@ -47,7 +47,8 @@
         "tokio-postgres",
         "Elasticsearch",
         "Node",
-        "TypeORM"
+        "TypeORM",
+        "Mojo"
       ]
     },
     {
@@ -213,7 +214,15 @@
   "skills": [
     {
       "name": "Programming Languages",
-      "keywords": ["Rust", "TypeScript", "JavaScript", "Python", "Java", "Go"]
+      "keywords": [
+        "Rust",
+        "Mojo",
+        "TypeScript",
+        "JavaScript",
+        "Python",
+        "Java",
+        "Go"
+      ]
     },
     {
       "name": "Frontend",
@@ -304,6 +313,10 @@
     {
       "name": "David Garcia (Glassnode)",
       "reference": "I would like to thank him for his excellent contribution. We wish him every success and all the best for his future professional and private life. I would highly recommend Balázs for any position that requires a seasoned engineer with problem-solving skills. He is a dedicated and talented employee who would be a valuable asset to any organisation."
+    },
+    {
+      "name": "Juan F. De Luca (Tari Labs)",
+      "reference": "I've had the pleasure of working with Balázs (aka Sevi), and I can confidently say he's one of those rare developers you are truly lucky to have on your team. He is an incredibly skilled Rust developer, but what sets him apart is his flexibility, no matter the problem or the stack, Sevi will dive in and find a solution. Whether it's Rust, JavaScript, Go, SQL, or any other language or framework needed to get the job done, all in."
     }
   ],
   "languages": [
