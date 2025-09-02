@@ -32,11 +32,12 @@
       "highlights": [
         "Boosted Tari's follower base 100x by creating a complex Airdrop game incentivizing user engagement and participation",
         "Helped creating Tari's desktop miner app: Tari Universe supporting Macos, Windows and Linux",
-        "Integrated Tari Universe and the airdrop game, giving testnet rewards for users",
+        "Integrated Tari Universe and the airdrop game, giving testnet rewards and other benefits for users",
         "Redesigned the company's paper trading game, eliminating 70% of their bugs and improving the game's reliability by 60%",
         "Added 2 new payment options to the Yat website.",
         "Automated marketing email campaigns with Customer.io, boosting retention rate by 30%.",
-        "Implemented referral system, increasing new player count by 50%."
+        "Implemented referral system, increasing new player count by 50%.",
+        "Helped the creation of a Uniswap integration for the Tari token"
       ],
       "technologies": [
         "Rust",
